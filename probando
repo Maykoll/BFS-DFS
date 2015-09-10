@@ -1,3 +1,12 @@
+
+typedef struct tipo_nodo{
+  
+  int dato;
+  int distancia;
+  int tiempo;
+  struct *padre;
+}nodo;
+
 int matriz [8][8];
 int i=0, j=0;
 
