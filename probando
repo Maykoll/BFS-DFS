@@ -5,6 +5,7 @@ typedef struct tipo_nodo{
   int distancia;
   int tiempo;
   char color;
+  char etiqueta;
   struct *padre;
 }nodo;
 
