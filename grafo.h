@@ -9,7 +9,7 @@
 #endif
 
 typedef struct tnodo{
-	char nombre;
+	char ciudad;
 	char dato;
 	char color; 
 	int distancia; 
