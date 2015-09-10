@@ -8,15 +8,33 @@
 #define STDLIB_H
 #endif
 
-typedef struct tipo_nodo{
-  
-  int dato;
-  int distancia;
-  int tiempo;
-  char color;
-  char etiqueta;
-  struct *padre;
+typedef struct tnodo{
+	char nombre;
+	char dato;
+	char color; 
+	int distancia; 
+	int tiempo;
+	struct tnodo *padre; 
+	
 }nodo;
+
+nodo iniciaNodo (char nombre){
+	nodo modificador;
+	modificador.distancia=0;
+	modificador.tiempo=0;
+	modificador.padre=NULL;
+	modificador.color='w';    //blanco
+	
+	return modificador;
+
+}
+
+void InArreglo_ nodos(nodo arreglo_nodos[8]){   // inicializar el arreglo de nodos
+	int i
+	for (i=0; i<8; i++){
+		arreglo_nodos[i]=iniciaNodo('ciudad'+i);
+	}
+}
 
 int matriz [8][8];
 int i=0, j=0;
