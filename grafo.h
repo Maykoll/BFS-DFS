@@ -36,6 +36,7 @@ void InArreglo_ nodos(nodo arreglo_nodos[8]){   // inicializar el arreglo de nod
 	}
 }
 
+/*  ARREGLAR!!!!!!!!!!
 
 int matriz [8][8];
 int i=0, j=0;
@@ -73,3 +74,4 @@ for (i=0;i<8;i++)
 		}
 		printf("\n");
 	}
+*/
