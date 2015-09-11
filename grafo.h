@@ -36,6 +36,7 @@ void InArreglo_ nodos(nodo arreglo_nodos[8]){   // inicializar el arreglo de nod
 	}
 }
 
+
 int matriz [8][8];
 int i=0, j=0;
 
