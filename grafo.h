@@ -36,3 +36,10 @@ void InArreglo_ nodos(nodo arreglo_nodos[8]){   // inicializar el arreglo de nod
 	}
 }
 
+void adyacentes (){
+
+	????
+	????
+	??
+}
+
