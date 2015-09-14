@@ -8,6 +8,10 @@
 #define STDLIB_H
 #endif
 
+#ifndef GRAFO_H
+#include "grafo.h"
+#define GRAFO_H
+#endif
 
 main ()
 {
